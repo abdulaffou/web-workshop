@@ -1,0 +1,55 @@
+.heading {
+    color: blueviolet;
+    transition: 0.5s ease-in-out;
+}
+
+.heading:hover {
+    color: #000;
+}
+
+.zoomHover {
+    transition: transform .5s ease-in-out;
+    margin: 10px;
+}
+
+.zoomHover:hover {
+    transform: scale(1.5) translate(20%, 30%);
+    margin: 500 auto;
+}
+
+body {
+    background-image: linear-gradient(0deg, #e2e2e1 30%, grey 30%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 97.5vh;
+    margin: 0;
+}
+
+.topnav {
+    padding: 10px;
+    overflow: hidden;
+    background-color: #e2e2e1;
+    height: 50px;
+}
+
+.topnav a {
+    float: left;
+    color: #555454;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    margin: 10;
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #a1a1a1;
+    color: white;
+}
